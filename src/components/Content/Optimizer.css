@@ -46,3 +46,9 @@
 .cubetable td {
     padding: 0px;
 }
+
+@media (prefers-color-scheme: dark) {
+    .content__container {
+        background-color: #333;
+    }
+}

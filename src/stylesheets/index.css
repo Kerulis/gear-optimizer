@@ -1,13 +1,162 @@
 body {
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+        monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        color: white;
+        background: #333;
+    }
+
+    html
+        body
+        div#app
+        div.app_container
+        div.app_body
+        div.content__container
+        div.item-table
+        div.item-section
+        span {
+        margin-left: 4px;
+    }
+
+    div button,
+    html
+        body.ReactModal__Body--open
+        div.ReactModalPortal
+        div.ReactModal__Overlay.ReactModal__Overlay--after-open
+        div.ReactModal__Content.ReactModal__Content--after-open
+        form
+        input {
+        background-color: #666;
+        border: 1px solid black;
+        color: white;
+        text-align: center;
+    }
+    html
+        body.ReactModal__Body--open
+        div.ReactModalPortal
+        div.ReactModal__Overlay.ReactModal__Overlay--after-open
+        div.ReactModal__Content.ReactModal__Content--after-open
+        form
+        input {
+        width: 56px;
+        margin-right: 5px;
+    }
+    html
+        body
+        div#app
+        div.app_container
+        div.app_body
+        div.content__container
+        div.button-section
+        div
+        button {
+        width: 30px;
+    }
+    html
+        body
+        div#app
+        div.app_container
+        div.app_body
+        div.content__container
+        div.button-section
+        button {
+        height: 20px;
+    }
+    div.item-table:nth-child(1) > div:nth-child(3) > button:nth-child(1),
+    div.item-table:nth-child(1) > div:nth-child(3) > button:nth-child(2) {
+        width: 25px;
+    }
+
+    select {
+        border: solid 1px black;
+        color: white;
+        background: #666 url(https://i.imgur.com/qynoLld.png) no-repeat right
+            center;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+    }
+
+    html
+        body
+        div#app
+        div.app_container
+        div.app_body
+        div.content__container
+        div.button-section
+        div
+        label
+        select {
+        width: 160px;
+    }
+
+    .center > form:nth-child(1) > label:nth-child(6) > select:nth-child(1) {
+        width: 75px;
+    }
+
+    html
+        body
+        div#app
+        div.app_container
+        div
+        div.center
+        form
+        div
+        div
+        label
+        select {
+        width: 200px;
+    }
+
+    html
+        body.ReactModal__Body--open
+        div.ReactModalPortal
+        div.ReactModal__Overlay.ReactModal__Overlay--after-open.edit-item-overlay
+        div.ReactModal__Content.ReactModal__Content--after-open.edit-item-modal {
+        background: #444;
+        border: solid 1px black;
+    }
+
+    html
+        body
+        div#app
+        div.app_container
+        div
+        div.center
+        form
+        table.center
+        tbody
+        tr
+        td
+        label
+        input {
+        background: #666;
+    }
+
+    a:link {
+        color: #9ab;
+    }
+
+    a:visited {
+        color: #678;
+    }
+    input {
+        background: #aaa;
+        border: 1px solid #111;
+    }
+
+    * {
+        scrollbar-color: #444 #252525 !important;
+    }
 }

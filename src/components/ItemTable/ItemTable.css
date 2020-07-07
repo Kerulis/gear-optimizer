@@ -39,3 +39,26 @@
 .priority-stat {
     font-weight: bold;
 }
+
+@media (prefers-color-scheme: dark) {
+    .item-section {
+        background: #444;
+        padding: 0px 4px;
+    }
+
+    .item-table {
+        background: #2f2f2f;
+    }
+
+    .same-stat {
+        color: #aaa;
+    }
+
+    .decrease-stat {
+        color: #b11;
+    }
+
+    .increase-stat {
+        color: #191;
+    }
+}

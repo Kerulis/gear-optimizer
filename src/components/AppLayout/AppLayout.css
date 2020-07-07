@@ -30,3 +30,9 @@
 .active {
     background-color: #33b;
 }
+
+@media (prefers-color-scheme: dark) {
+    .nav-bar-list {
+        background-color: #444;
+    }
+}
