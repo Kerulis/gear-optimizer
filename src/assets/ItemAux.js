@@ -361,6 +361,18 @@ export const multiple_factors = {
         "EMPC",
         [Stat.ENERGY_POWER, Stat.ENERGY_CAP, Stat.MAGIC_POWER, Stat.MAGIC_CAP],
     ],
+    EMXCAPSPEED: [
+        "EMR3 Cap Speed",
+        [
+            Stat.ENERGY_BARS,
+            Stat.MAGIC_BARS,
+            Stat.RES3_BARS,
+            Stat.ENERGY_CAP,
+            Stat.MAGIC_CAP,
+            Stat.RES3_CAP,
+        ],
+        [1, 1, 1, -1 / 10, -1 / 10, -1 / 10],
+    ],
 };
 
 function extend(obj, src) {
